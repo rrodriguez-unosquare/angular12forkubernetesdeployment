@@ -9,6 +9,9 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
+variables:
+  tag: '$(Build.BuildId)'
+
 steps:
 - task: Docker@2
   inputs:
