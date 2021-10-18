@@ -16,3 +16,6 @@ steps:
     repository: 'romancadete/angular12kubernetes'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
+    tags: |
+          $(tag)
+          latest
