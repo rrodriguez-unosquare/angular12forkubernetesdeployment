@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: angular12webapp
-          image: romancadete/angular12kubernetes:384
+          image: romancadete/angular12kubernetes:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
