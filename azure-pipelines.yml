@@ -17,5 +17,5 @@ steps:
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
     tags: |
-          $(tag)
-          latest
+      $(tag)
+      latest
